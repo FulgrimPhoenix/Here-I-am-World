@@ -1,0 +1,8 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 28px auto 0;
+  padding: 0 48px 0;
+}
