@@ -1,0 +1,10 @@
+.places__image{
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  background-image: url(../../../images/places/kyrshskia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+}

@@ -7,3 +7,15 @@
   background-size: contain;
   padding-bottom: 62.5%;
 }
+
+@media screen and (max-width : 1024px) {
+  .lead__main-pic{
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .lead__main-pic{
+    margin-top: 40px;
+  }
+}
