@@ -3,7 +3,7 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
   .cover{
     padding: 0;
   }
@@ -11,13 +11,13 @@
 
 
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .cover{
     margin: 90px 0 0;
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .cover{
     margin: 16px 0 0;
   }
