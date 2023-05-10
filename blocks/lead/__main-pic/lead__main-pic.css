@@ -1,16 +1,18 @@
 .lead__main-pic{
-  margin-top: 64px;
-  object-fit: contain;
-  max-width: 100%;
-  background-image: url(../../../images/top-shelf.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding-bottom: 62.5%;
+  margin: 64px auto 0;
+  width: 100%;
 }
 
 @media screen and (max-width : 1024px) {
   .lead__main-pic{
-    margin-top: 56px;
+    margin: 56px auto 0;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .lead__main-pic{
+    margin: 56px auto 0;
+    width: 100%;
   }
 }
 

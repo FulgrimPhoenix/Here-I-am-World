@@ -11,3 +11,9 @@
   text-transform: uppercase;
   color: #FFFFFF;
 }
+
+@media screen and (max-width : 768px) {
+  .lead__caption{
+    padding-left: 24px;
+  }
+}

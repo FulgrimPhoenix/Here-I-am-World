@@ -1,12 +1,12 @@
 .intro{
   position: relative;
   margin: 92px auto 0;
-  padding: 0 100px;
+  padding: 0 148px;
 }
 
 @media screen and (max-width : 1024px){
   .intro{
-    padding: 0;
+    padding: 0 48px;
   }
 }
 

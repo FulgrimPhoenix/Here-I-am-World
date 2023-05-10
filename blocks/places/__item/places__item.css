@@ -4,7 +4,11 @@
   row-gap: 48px;
   column-gap: 40px;
   justify-content: center;
+  margin-bottom: 80px;
+}
 
+.places__item:last-child{
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width : 1024px) {
@@ -25,6 +29,15 @@
     row-gap: 48px;
     column-gap: 28px;
     grid-template-columns: 340px 352px;
+    margin-bottom: 73px;
+  }
+}
+
+@media screen and (max-width : 720px) {
+  .places__item{
+    row-gap: 32px;
+    grid-template-columns: minmax(320px, 500px);
+    margin-bottom: 50px;
   }
 }
 
@@ -32,5 +45,6 @@
   .places__item{
     row-gap: 32px;
     grid-template-columns: minmax(288px, 320px);
+    margin-bottom: 50px;
   }
 }
