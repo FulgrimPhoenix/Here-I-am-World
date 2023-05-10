@@ -8,13 +8,13 @@
   padding: 0 48px 0;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   .header{
     padding: 0 24px 0;
   }
 }
 
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
   .header{
     padding: 0 16px 0;
     margin: 16px auto 0;
