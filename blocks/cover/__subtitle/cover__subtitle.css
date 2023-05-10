@@ -10,6 +10,19 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width : 767px) {
+  .cover__subtitle{
+    font-size: calc( (100vw - 320px)/(767 - 320) * (18 - 14) + 14px);
+  }
+}
+
+@media screen and (max-width : 585px) {
+  .cover__subtitle{
+    margin: 16px auto 0;
+    line-height: 16px;
+}
+}
+
 @media screen and (max-width : 320px) {
   .cover__subtitle{
     margin: 16px auto 0;
