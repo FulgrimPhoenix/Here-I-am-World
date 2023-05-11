@@ -19,7 +19,7 @@
   .photo-grid{
     padding: 0 24px;
     margin-top: 88px;
-    grid-template-columns: repeat(auto-fit, 352px);
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
     gap: 16px;
     width: calc(100% - 48px);
   }
