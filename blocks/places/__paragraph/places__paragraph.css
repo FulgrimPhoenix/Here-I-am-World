@@ -23,8 +23,4 @@
   .places__paragraph{
     margin-bottom: 25px;
   }
-
-  .places__paragraph:last-child{
-    margin-bottom: 50px;
-  }
 }
